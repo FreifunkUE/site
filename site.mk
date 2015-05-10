@@ -10,8 +10,8 @@ GLUON_SITE_PACKAGES := \
         gluon-announced \
         gluon-autoupdater \
         gluon-config-mode-autoupdater \
-     gluon-setup-mode \
-     gluon-config-mode-core \
+        gluon-setup-mode \
+        gluon-config-mode-core \
         gluon-config-mode-hostname \
         gluon-config-mode-mesh-vpn \
         gluon-config-mode-geo-location \
@@ -20,7 +20,7 @@ GLUON_SITE_PACKAGES := \
         gluon-ebtables-filter-ra-dhcp \
         gluon-luci-admin \
         gluon-luci-autoupdater \
-     gluon-luci-wifi-config \
+        gluon-luci-wifi-config \
         gluon-luci-private-wifi \
         gluon-luci-portconfig \
         gluon-next-node \
@@ -37,7 +37,7 @@ GLUON_SITE_PACKAGES := \
 #			opkg compare-versions "$1" '>>' "$2"
 #		to decide if a version is newer or not.
 
-DEFAULT_GLUON_RELEASE := MA-0.70+exp$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := 0.70+exp$(shell date '+%Y%m%d')
 
 
 ##	GLUON_RELEASE
