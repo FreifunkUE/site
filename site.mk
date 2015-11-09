@@ -7,7 +7,6 @@
 GLUON_SITE_PACKAGES := \
     gluon-mesh-batman-adv-14 \
     gluon-alfred \
-    gluon-announced \
     gluon-autoupdater \
     gluon-config-mode-autoupdater \
     gluon-config-mode-contact-info \
@@ -17,7 +16,7 @@ GLUON_SITE_PACKAGES := \
     gluon-config-mode-mesh-vpn \
     gluon-ebtables-filter-multicast \
     gluon-ebtables-filter-ra-dhcp \
-    ffpb-ebtables-net-rules \
+    ffue-ebtables-net-rules \
     gluon-luci-admin \
     gluon-luci-autoupdater \
     gluon-luci-portconfig \
