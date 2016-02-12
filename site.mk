@@ -7,7 +7,7 @@
 GLUON_SITE_PACKAGES := \
     gluon-mesh-batman-adv-14 \
     gluon-alfred \
-    gluon-announced \
+    gluon-respondd \
     gluon-autoupdater \
     gluon-config-mode-autoupdater \
     gluon-config-mode-contact-info \
@@ -38,7 +38,7 @@ GLUON_SITE_PACKAGES := \
 #			opkg compare-versions "$1" '>>' "$2"
 #		to decide if a version is newer or not.
 
-DEFAULT_GLUON_RELEASE := 0.8-exp$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := 0.79
 
 
 ##	GLUON_RELEASE
