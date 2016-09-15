@@ -17,7 +17,6 @@ GLUON_SITE_PACKAGES := \
     gluon-config-mode-mesh-vpn \
     gluon-ebtables-filter-multicast \
     gluon-ebtables-filter-ra-dhcp \
-    ffue-ebtables-net-rules \
     gluon-luci-admin \
     gluon-luci-autoupdater \
     gluon-luci-portconfig \
@@ -38,7 +37,7 @@ GLUON_SITE_PACKAGES := \
 #			opkg compare-versions "$1" '>>' "$2"
 #		to decide if a version is newer or not.
 
-DEFAULT_GLUON_RELEASE := 0.86
+DEFAULT_GLUON_RELEASE := 0.87
 
 
 ##	GLUON_RELEASE
@@ -52,6 +51,9 @@ DEFAULT_GLUON_RELEASE := 0.86
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 GLUON_PRIORITY ?= 0
+
+# Region code required for some images; supported values: us eu
+GLUON_REGION ?= eu
 
 # Languages to include
 GLUON_LANGS ?= en de
