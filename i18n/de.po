@@ -12,7 +12,7 @@ msgstr ""
 
 msgid "gluon-config-mode:welcome"
 msgstr ""
-"Willkommen zum Einrichtungsassistenten für Deinen neuen Wendland "
+"Willkommen zum Einrichtungsassistenten für Deinen neuen Uelzener "
 "Freifunk-Knoten. Fülle das folgende Formular Deinen Vorstellungen "
 "entsprechend aus und sende es ab."
 

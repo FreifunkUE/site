@@ -6,7 +6,6 @@
 
 GLUON_SITE_PACKAGES := \
     gluon-mesh-batman-adv-14 \
-    gluon-alfred \
     gluon-respondd \
     gluon-autoupdater \
     gluon-config-mode-autoupdater \
@@ -17,12 +16,11 @@ GLUON_SITE_PACKAGES := \
     gluon-config-mode-mesh-vpn \
     gluon-ebtables-filter-multicast \
     gluon-ebtables-filter-ra-dhcp \
-    gluon-luci-admin \
-    gluon-luci-autoupdater \
-    gluon-luci-portconfig \
-    gluon-luci-wifi-config \
-    gluon-luci-private-wifi \
-    gluon-next-node \
+    gluon-web-admin \
+    gluon-web-autoupdater \
+    gluon-web-network \
+    gluon-web-wifi-config \
+    gluon-web-private-wifi \
     gluon-mesh-vpn-fastd \
     gluon-radvd \
     gluon-setup-mode \
@@ -37,7 +35,7 @@ GLUON_SITE_PACKAGES := \
 #			opkg compare-versions "$1" '>>' "$2"
 #		to decide if a version is newer or not.
 
-DEFAULT_GLUON_RELEASE := 0.98
+DEFAULT_GLUON_RELEASE := 1.02
 
 
 ##	GLUON_RELEASE
