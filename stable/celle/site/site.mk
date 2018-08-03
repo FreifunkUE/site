@@ -35,7 +35,7 @@ GLUON_SITE_PACKAGES := \
 #			opkg compare-versions "$1" '>>' "$2"
 #		to decide if a version is newer or not.
 
-DEFAULT_GLUON_RELEASE := celle-1.04
+DEFAULT_GLUON_RELEASE := celle-1.06
 
 
 ##	GLUON_RELEASE
@@ -47,6 +47,8 @@ DEFAULT_GLUON_RELEASE := celle-1.04
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
+
+GLUON_BRANCH ?= experimental
 
 GLUON_PRIORITY ?= 0
 
