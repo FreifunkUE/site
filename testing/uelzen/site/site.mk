@@ -35,7 +35,7 @@ GLUON_SITE_PACKAGES := \
 #			opkg compare-versions "$1" '>>' "$2"
 #		to decide if a version is newer or not.
 
-DEFAULT_GLUON_RELEASE := 1.04
+DEFAULT_GLUON_RELEASE := uelzen-1.05
 
 
 ##	GLUON_RELEASE
