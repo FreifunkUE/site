@@ -48,6 +48,8 @@ DEFAULT_GLUON_RELEASE := celle-1.06
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
+GLUON_BRANCH ?= experimental
+
 GLUON_PRIORITY ?= 0
 
 # Region code required for some images; supported values: us eu
